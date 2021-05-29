@@ -1,0 +1,51 @@
+body {
+  background-color: burlywood;
+}
+
+.contenedor {
+  background-color: white;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: solid 4px;
+}
+
+#barra {
+  background-color: black;
+  height: 25px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.parfjust {
+  font-size: 26px;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.parfcent {
+  font-size: 26px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
