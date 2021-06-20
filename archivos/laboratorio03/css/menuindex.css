@@ -8,8 +8,8 @@ ul{
     padding: 0;
     width: 15%;
     background-color: gainsboro;
-    position: fixed;
-    height: fixed;
+    position: relative;
+    height: auto;
     overflow: auto;
     border: 1px solid black;
 }
