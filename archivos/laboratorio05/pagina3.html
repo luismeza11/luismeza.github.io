@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 1</title>
+    <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="">
+            <div class="cajas">
+                <label for="txtNom">Nombres:</label>
+                <input type="text" name="txtNom" id="txtNom"><br>
+                <label for="txtApe">Apellidos:</label>
+                <input type="text" name="txtApe" id="txtApe"><br>
+                <label for="txtDni">Dni:</label>
+                <input type="number" name="txtDni" id="txtDni"><br> 
+                <label for="cboCurso">Curso:</label>
+                    <select name="cboCurso" id="cboCurso">
+                        <option value="0">Seleccione un curso</option>
+                        <option value="1">Diseño Web</option>
+                        <option value="2">Base de Datos</option>
+                        <option value="3">Programacion Java</option>
+                    </select><br>
+            </div>
+            <div class="radios">    
+                <label for=""><b>Turno:</b></label>
+                <input type="radio" name="turno" id="rbM">Mañana<label for=""></label>
+                <input type="radio" name="turno" id="rbT">Tarde<label for=""></label>
+                <input type="radio" name="turno" id="rbN">Noche<label for=""></label><br>
+            </div>
+            <div class="cajas">
+                <label for="">Estado:</label>
+                    <div class="casillas">
+                        <input type="checkbox" name="chkEst" id="chkEst">
+                        <label for="chkEst">Habilitado</label><br>
+                    </div>
+            </div>
+        <input type="button" value="Registrar" name="btnRegistrar" id="btnRegistrar" class="boton">
+        <input type="reset" value="Limpiar" id="btnLimpiar" name="btnLimpiar" class="boton1">
+        </form>
+    </div>
+    <table id="tbAlumno" class="tabla">
+        <thead class="colus">
+            <th class="colus1">Nombres</th>
+            <th class="colus2">Apellidos</th>
+            <th class="colus3">Dni</th>
+            <th class="colus4">Curso</th>
+            <th class="colus5">Turno</th>
+            <th>Estado</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="js/registrotarea.js"></script>
+    <script src="js/bibliotecatarea.js"></script>
+</body>
+</html>

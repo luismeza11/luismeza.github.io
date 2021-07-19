@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    background-color: burlywood;
+}
+.contenedor{
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+}
+.cajas{
+    padding: 20px;
+    border-radius: 6px 6px 0 0;
+    background: white;
+}
+input[type="text"], input[type="number"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus{
+    border-bottom: 2px solid #246eb9;
+}
+
+select{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+select:focus{
+    border-bottom: 2px solid #246eb9;
+}
+
+.radios{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    color: #424242;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+.radios label{
+    margin-left: 10px;
+}
+
+.casillas{
+    text-align: center;
+    color:#424242;
+}
+
+.casillas label{
+    margin-left: 10px;
+}
+
+.boton{
+    width: 100%;
+    text-align: center;
+    background: #2e12cc;
+    color: white;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+.boton:hover{
+    background-color: rgb(35, 226, 99) ;
+}
+
+.boton1{
+    width: 100%;
+    text-align: center;
+    background: #12a1cc;
+    color: black;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+.boton1:hover{
+    background-color: rgb(255, 255, 255) ;
+}
+
+
+.tabla{
+    border: solid;
+    background-color: white;
+    position: relative;
+    right: -100px;
+    top: -620px;
+}
+
+.colus{
+    background-color: yellow;
+}
+
+.colus1{
+    border-right: solid;
+    padding: 5px 20px 5px 20px;
+}
+
+.colus2{
+    border-right: solid;
+    padding: 5px 20px 5px 20px;
+}
+
+.colus3{
+    border-right: solid;
+    padding: 5px 30px 5px 30px;
+}
+
+.colus4{
+    border-right: solid;
+    padding: 5px 60px 5px 40px;
+}
+
+.colus5{
+    border-right: solid;
+    padding: 5px 10px 5px 10px;
+}
+
+.error{
+    display: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #ce1818;
+    color: white;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
